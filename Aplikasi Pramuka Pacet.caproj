@@ -1,0 +1,2121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Aplikasi Pramuka Pacet</name>
+    <description>aplikasi pramuka kwartir ranting pacet</description>
+    <version>1.0.0.0</version>
+    <author>Muhammad Supyan</author>
+    <author-email>muhammadsupyan38@gmai.com</author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="lunarray" id="lunarray_LiteTween" version="1.700000048">LiteTween</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>720</width>
+        <height>1280</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>menu awal</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">Firefox</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="fungsi">
+            <object-type name="Audio" sid="577954300963388">
+                <plugin id="Audio" />
+            </object-type>
+            <object-type name="Function" sid="619591625433036">
+                <plugin id="Function" />
+            </object-type>
+            <object-type name="Touch" sid="378321389171580">
+                <plugin id="Touch" />
+            </object-type>
+            <object-type name="Browser" sid="877408328594628">
+                <plugin id="Browser" />
+            </object-type>
+        </object-folder>
+        <object-type name="Sprite" sid="762470816638658">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="781254228514827" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500365" original-source="C:\Users\M Supyan\Documents\data supyan\project game\background\Gambar Gambar Latar Belakang Awan Biru Putih Penuh Langit Biru Dan Awan Putih Rumput Latar Belakang Latar Belakang Untuk Muat Turun Percuma Background Pictures.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="object2" sid="728177530205667">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="824789190639871" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501014" original-source="C:\Users\M Supyan\Documents\data supyan\project game\object\1647350508235.png">
+                        <collision-poly>
+                            <point x="0.163333" y="0.0993915" />
+                            <point x="0.5" y="0.0141988" />
+                            <point x="0.736667" y="0.160243" />
+                            <point x="0.65" y="0.498986" />
+                            <point x="0.713333" y="0.825558" />
+                            <point x="0.5" y="1" />
+                            <point x="0.293333" y="0.821501" />
+                            <point x="0" y="0.498986" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play" sid="993767132553453">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="651141546007291" type="number" />
+                <instance-variable name="saveY" sid="992668308677155" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="777922813807213">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="222548001677347" speed="5">
+                    <frame duration="1" hotspotX="0.502326" hotspotY="0.505155" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Play1.png">
+                        <collision-poly>
+                            <point x="0.0372093" y="0.0824742" />
+                            <point x="0.497674" y="0.0206186" />
+                            <point x="0.95814" y="0.0927835" />
+                            <point x="0.990698" y="0.494845" />
+                            <point x="0.953488" y="0.896907" />
+                            <point x="0.497674" y="0.948454" />
+                            <point x="0.0418605" y="0.907216" />
+                            <point x="0.00930233" y="0.494845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_info" sid="694992724178104">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="163639891474990" type="number" />
+                <instance-variable name="saveY" sid="860943578501955" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="299301761478401">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293778718386801" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_67.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button_musik" sid="780151670280786">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="940538406374122" type="number" />
+                <instance-variable name="saveY" sid="489904392127981" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="469475930853410">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780359642605446" speed="0">
+                    <frame duration="1" hotspotX="0.502703" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_10.png">
+                        <collision-poly>
+                            <point x="0.0756757" y="0.0729167" />
+                            <point x="0.497298" y="0.00520833" />
+                            <point x="0.908108" y="0.0885416" />
+                            <point x="0.967568" y="0.5" />
+                            <point x="0.891892" y="0.895833" />
+                            <point x="0.497298" y="0.947917" />
+                            <point x="0.0918919" y="0.911458" />
+                            <point x="0.0108108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_11.png">
+                        <collision-poly>
+                            <point x="0.0714286" y="0.0684211" />
+                            <point x="0.5" y="0" />
+                            <point x="0.912088" y="0.0842105" />
+                            <point x="0.978022" y="0.5" />
+                            <point x="0.895604" y="0.9" />
+                            <point x="0.5" y="0.952632" />
+                            <point x="0.0879121" y="0.915789" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tuguBubur" sid="306326718488322">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="233735854247258" speed="5">
+                    <frame duration="1" hotspotX="0.52506" hotspotY="0.486495" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220316_135218.png">
+                        <collision-poly>
+                            <point x="0.395585" y="0.41502" />
+                            <point x="0.52506" y="0.0194335" />
+                            <point x="0.961217" y="0.245718" />
+                            <point x="0.881862" y="0.486495" />
+                            <point x="0.886038" y="0.685771" />
+                            <point x="0.52506" y="0.998024" />
+                            <point x="0.393795" y="0.558959" />
+                            <point x="0.404535" y="0.486495" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="keluar" sid="798606841791197">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="713882184478616" type="number" />
+                <instance-variable name="saveY" sid="833390646952013" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="396482385620660">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836336640397191" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_87.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgMateri" sid="453792535627907">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="853416812645041" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Гикори LHD 12011.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgIsiMateri" sid="686368649687857">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201086387592727" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501742" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\widow\Window - Copy_15.png">
+                        <collision-poly>
+                            <point x="0.0255102" y="0.0174216" />
+                            <point x="0.5" y="0.00348432" />
+                            <point x="0.97449" y="0.0174216" />
+                            <point x="1" y="0.498258" />
+                            <point x="0.97449" y="0.982578" />
+                            <point x="0.5" y="0.996516" />
+                            <point x="0.0255102" y="0.982578" />
+                            <point x="0.00510204" y="0.498258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home_pu" sid="772725966361906">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="521650539770851" type="number" />
+                <instance-variable name="saveY" sid="876838485190340" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="559772573139775">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="625658857602864" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_51.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dkrMateri" sid="816486251773782">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="646825497830588" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1646520498270.png">
+                        <collision-poly>
+                            <point x="0.148438" y="0.148438" />
+                            <point x="0.5" y="0" />
+                            <point x="0.851563" y="0.148438" />
+                            <point x="1" y="0.5" />
+                            <point x="0.851563" y="0.851563" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GambarKartunBukitLangitBiruLangitPutihPosterRingkasLatihanLatarBelakangUntukMuatTurunPercumaBackgroundDesignColorfulBordersDesignCartoonBa" sid="889985477920385">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727750987048541" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Gambar Kartun Bukit Langit Biru Langit Putih Poster Ringkas Latihan Latar Belakang Untuk Muat Turun Percuma Background Design Colorful Borders Design Cartoon Ba (1).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="logo_awal" sid="900779039682269">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="418686028104253">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378321043722998" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220318_213212.png">
+                        <collision-poly>
+                            <point x="0.261336" y="0.261336" />
+                            <point x="0.5" y="0.0226716" />
+                            <point x="0.738971" y="0.261029" />
+                            <point x="0.870404" y="0.5" />
+                            <point x="0.779718" y="0.779718" />
+                            <point x="0.5" y="0.914522" />
+                            <point x="0.219669" y="0.780331" />
+                            <point x="0.129596" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_submenu" sid="281423137033276">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="336571782195615" type="number" />
+                <instance-variable name="saveY" sid="822491760908409" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="216382563743169">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727786093708093" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="320235674723793">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="135701561940432" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1646520498270.png">
+                        <collision-poly>
+                            <point x="0.149533" y="0.149533" />
+                            <point x="0.5" y="0.00155763" />
+                            <point x="0.850467" y="0.149533" />
+                            <point x="0.998442" y="0.5" />
+                            <point x="0.850467" y="0.850467" />
+                            <point x="0.5" y="0.998442" />
+                            <point x="0.15109" y="0.84891" />
+                            <point x="0.00155763" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pu" sid="926598100916443">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="612597438336713" type="number" />
+                <instance-variable name="saveY" sid="744388408827724" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="207091362448588">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="568055996575252" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_214651.png">
+                        <collision-poly>
+                            <point x="0.335885" y="0.0118397" />
+                            <point x="0.664115" y="0.0118397" />
+                            <point x="0.989896" y="0.5" />
+                            <point x="0.649724" y="0.945355" />
+                            <point x="0.350276" y="0.945355" />
+                            <point x="0.00306185" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penegak" sid="481212153544596">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="991186553763680" type="number" />
+                <instance-variable name="saveY" sid="100448497985578" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="516859090103102">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333781603321872" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_214859.png">
+                        <collision-poly>
+                            <point x="0.335885" y="0.0118397" />
+                            <point x="0.664115" y="0.0118397" />
+                            <point x="0.990814" y="0.5" />
+                            <point x="0.649724" y="0.945355" />
+                            <point x="0.350276" y="0.945355" />
+                            <point x="0.00367422" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="penggalang" sid="639583460881474">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="387695474353676" type="number" />
+                <instance-variable name="saveY" sid="774978647691402" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="128969809916537">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595803778604247" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_214752.png">
+                        <collision-poly>
+                            <point x="0.335885" y="0.0118397" />
+                            <point x="0.664115" y="0.0118397" />
+                            <point x="0.989896" y="0.5" />
+                            <point x="0.649724" y="0.945355" />
+                            <point x="0.350276" y="0.945355" />
+                            <point x="0.00306185" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="siaga" sid="840466526441178">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="710659805320783" type="number" />
+                <instance-variable name="saveY" sid="536659044083586" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="634317632192689">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="711965929494616" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_214951.png">
+                        <collision-poly>
+                            <point x="0.335885" y="0.0118397" />
+                            <point x="0.664115" y="0.0118397" />
+                            <point x="0.990814" y="0.5" />
+                            <point x="0.649724" y="0.945355" />
+                            <point x="0.350276" y="0.945355" />
+                            <point x="0.00367422" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_pu" sid="617322933553564">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="854249461961578" type="number" />
+                <instance-variable name="saveY" sid="680412784243266" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="566464432910073">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330938647950592" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pancasila" sid="265982571379242">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="606797407924459" type="number" />
+                <instance-variable name="saveY" sid="939766752237494" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="554932015740099">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="977401626523574" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_222340.png">
+                        <collision-poly>
+                            <point x="0.390473" y="0.00315457" />
+                            <point x="0.609527" y="0.00315457" />
+                            <point x="0.999305" y="0.5" />
+                            <point x="0.609527" y="0.996845" />
+                            <point x="0.390473" y="0.996845" />
+                            <point x="0.00069541" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tri_satya" sid="918213620504360">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="667037614018535" type="number" />
+                <instance-variable name="saveY" sid="569493666070888" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="372045204995225">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246953517468773" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_222417.png">
+                        <collision-poly>
+                            <point x="0.390473" y="0.00315457" />
+                            <point x="0.609527" y="0.00315457" />
+                            <point x="0.999305" y="0.5" />
+                            <point x="0.609527" y="0.996845" />
+                            <point x="0.390473" y="0.996845" />
+                            <point x="0.00069541" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dasa_dharma" sid="521756626933148">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="992048408463888" type="number" />
+                <instance-variable name="saveY" sid="994522794390260" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="183287093392535">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677615526276794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220323_222519.png">
+                        <collision-poly>
+                            <point x="0.390473" y="0.00315457" />
+                            <point x="0.609527" y="0.00315457" />
+                            <point x="0.999305" y="0.5" />
+                            <point x="0.609527" y="0.996845" />
+                            <point x="0.390473" y="0.996845" />
+                            <point x="0.00069541" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_penegak" sid="440170104936775">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="976538785334116" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Гикори LHD 12011.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_subtegak" sid="407963346961362">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="433118105067072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501742" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\widow\Window - Copy_15.png">
+                        <collision-poly>
+                            <point x="0.0255102" y="0.0174216" />
+                            <point x="0.5" y="0.00348432" />
+                            <point x="0.97449" y="0.0174216" />
+                            <point x="1" y="0.498258" />
+                            <point x="0.97449" y="0.982578" />
+                            <point x="0.5" y="0.996516" />
+                            <point x="0.0255102" y="0.982578" />
+                            <point x="0.00510204" y="0.498258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_penegak" sid="384795018305236">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="363247193699715" type="number" />
+                <instance-variable name="saveY" sid="629239476713679" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="580569189626105">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="188528524739232" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home_penegak" sid="847714392323831">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="256574491662684" type="number" />
+                <instance-variable name="saveY" sid="333915620852951" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="202305813962160">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526605551152640" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_51.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="uugp" sid="288707663319895">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="411753204553997" type="number" />
+                <instance-variable name="saveY" sid="974216094700557" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="732415863320949">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="521442499330088" speed="5">
+                    <frame duration="1" hotspotX="0.500522" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_122014.png">
+                        <collision-poly>
+                            <point x="0.390957" y="0.00315457" />
+                            <point x="0.610087" y="0.00315457" />
+                            <point x="0.999652" y="0.5" />
+                            <point x="0.610087" y="0.996845" />
+                            <point x="0.390957" y="0.996845" />
+                            <point x="0.000695652" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ppdk" sid="387234952098494">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="962683466818692" type="number" />
+                <instance-variable name="saveY" sid="248930152179149" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="480495195388599">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300447428137422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.432813" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_122348.png">
+                        <collision-poly>
+                            <point x="0.415493" y="0.0015625" />
+                            <point x="0.584507" y="0.0015625" />
+                            <point x="0.999694" y="0.432813" />
+                            <point x="0.610533" y="0.996875" />
+                            <point x="0.389467" y="0.996875" />
+                            <point x="0.000306185" y="0.432813" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="polmekbin" sid="423283519774058">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="698078787712854" type="number" />
+                <instance-variable name="saveY" sid="130689535426787" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="441650742770270">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978666376173737" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.4375" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_212029.png">
+                        <collision-poly>
+                            <point x="0.414881" y="0.003125" />
+                            <point x="0.585119" y="0.003125" />
+                            <point x="0.999694" y="0.4375" />
+                            <point x="0.60992" y="0.998438" />
+                            <point x="0.39008" y="0.998438" />
+                            <point x="0.000306185" y="0.4375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sismintir" sid="175213109249077">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="533944900632785" type="number" />
+                <instance-variable name="saveY" sid="668333594290509" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="217975708422797">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945932721127017" speed="5">
+                    <frame duration="1" hotspotX="0.500522" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_122216.png">
+                        <collision-poly>
+                            <point x="0.390957" y="0.00315457" />
+                            <point x="0.610087" y="0.00315457" />
+                            <point x="0.999652" y="0.5" />
+                            <point x="0.610087" y="0.996845" />
+                            <point x="0.390957" y="0.996845" />
+                            <point x="0.000695652" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="saka" sid="135261169472520">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="799130716745712" type="number" />
+                <instance-variable name="saveY" sid="521741135030324" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="129789553172574">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="389441231687090" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.4375" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_211034.png">
+                        <collision-poly>
+                            <point x="0.414881" y="0.003125" />
+                            <point x="0.585119" y="0.003125" />
+                            <point x="0.999694" y="0.4375" />
+                            <point x="0.60992" y="0.998438" />
+                            <point x="0.39008" y="0.998438" />
+                            <point x="0.000306185" y="0.4375" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="adart" sid="887217286979453">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="540754571697534" type="number" />
+                <instance-variable name="saveY" sid="176245463847959" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="568568923795876">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="587389606764782" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.438735" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220324_211327.png">
+                        <collision-poly>
+                            <point x="0.414977" y="0.00790514" />
+                            <point x="0.585023" y="0.00790514" />
+                            <point x="0.99922" y="0.438735" />
+                            <point x="0.609984" y="0.996047" />
+                            <point x="0.390016" y="0.996047" />
+                            <point x="0.000780031" y="0.438735" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_penggalang" sid="145749776582601">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478396022199050" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Гикори LHD 12011.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_penggalang" sid="505093658025530">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="704646247669700" type="number" />
+                <instance-variable name="saveY" sid="909039234133036" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="516627589233806">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="475562638820980" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home_penggalang" sid="556787116425164">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="878330997934363" type="number" />
+                <instance-variable name="saveY" sid="547818231118430" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="818047121347351">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573611864712085" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_51.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_subgalang" sid="782552224779241">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="619100632133036" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501742" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\widow\Window - Copy_15.png">
+                        <collision-poly>
+                            <point x="0.0255102" y="0.0174216" />
+                            <point x="0.5" y="0.00348432" />
+                            <point x="0.97449" y="0.0174216" />
+                            <point x="1" y="0.498258" />
+                            <point x="0.97449" y="0.982578" />
+                            <point x="0.5" y="0.996516" />
+                            <point x="0.0255102" y="0.982578" />
+                            <point x="0.00510204" y="0.498258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_bio_BF" sid="916870360149838">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="473444513876821" type="number" />
+                <instance-variable name="saveY" sid="682445553391848" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="523637127688879">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="125222174580498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_103411.png">
+                        <collision-poly>
+                            <point x="0.0622066" y="0.0805847" />
+                            <point x="0.5" y="0.000749625" />
+                            <point x="0.917058" y="0.10045" />
+                            <point x="0.97144" y="0.5" />
+                            <point x="0.9018" y="0.884933" />
+                            <point x="0.5" y="0.943778" />
+                            <point x="0.0809859" y="0.901424" />
+                            <point x="0.00743349" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_sejarahpramuka" sid="323621348776674">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="401034897516085" type="number" />
+                <instance-variable name="saveY" sid="849073829344845" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="498691252239374">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="543845143585017" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_103839.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_smaphore" sid="272939362984097">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="713994311425351" type="number" />
+                <instance-variable name="saveY" sid="601230148592079" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="668075468855491">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307306143813613" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_104137.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_simpul" sid="973617893870831">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="851201075866419" type="number" />
+                <instance-variable name="saveY" sid="701838320395113" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="344295430734239">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="799795166556896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_104206.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_morse" sid="711491790562694">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="479935705551489" type="number" />
+                <instance-variable name="saveY" sid="221275878638590" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="545642798878792">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="749802293399285" speed="5">
+                    <frame duration="1" hotspotX="0.513561" hotspotY="0.513627" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_104747.png">
+                        <collision-poly>
+                            <point x="0.0621172" y="0.0809224" />
+                            <point x="0.513561" y="0.000419287" />
+                            <point x="0.926509" y="0.11782" />
+                            <point x="0.970691" y="0.513627" />
+                            <point x="0.901137" y="0.885115" />
+                            <point x="0.513561" y="0.943816" />
+                            <point x="0.0975503" y="0.912369" />
+                            <point x="0.007874" y="0.513627" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_survival" sid="387710378548383">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="335313970063783" type="number" />
+                <instance-variable name="saveY" sid="878259225793991" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="931583089322641">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546579424164155" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_103914.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_sandi" sid="670129610986221">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="944338189662102" type="number" />
+                <instance-variable name="saveY" sid="981513765116510" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="796403913229168">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="438290897584676" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_104057.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_mataangin" sid="700014161575118">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="860811130008324" type="number" />
+                <instance-variable name="saveY" sid="957070538882218" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="715497016468921">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573675548377072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_103950.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_berkemah" sid="703441260680448">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="444523306268235" type="number" />
+                <instance-variable name="saveY" sid="180427638599044" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="562581123670033">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="708381627992698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_104243.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TKU" sid="447083928480712">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="748676339222502" type="number" />
+                <instance-variable name="saveY" sid="556620741973812" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="330515361916299">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="968677194793301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_141307.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TKK" sid="348657438096305">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveY" sid="217873474325726" type="number" />
+                <instance-variable name="saveX" sid="874604469859800" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="381659562121373">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836460469561888" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_141249.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="P_sejarah" sid="612288623997990">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="784414880315355" type="number" />
+                <instance-variable name="saveY" sid="485938324453958" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="440844417674649">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654810300977453" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220325_141421.png">
+                        <collision-poly>
+                            <point x="0.0621806" y="0.0804082" />
+                            <point x="0.5" y="0.000408163" />
+                            <point x="0.916951" y="0.100408" />
+                            <point x="0.971039" y="0.5" />
+                            <point x="0.901192" y="0.88449" />
+                            <point x="0.5" y="0.943673" />
+                            <point x="0.0813458" y="0.901224" />
+                            <point x="0.0072402" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_siaga" sid="383278441877027">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374457086028733" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Гикори LHD 12011.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_siaga" sid="110257450249588">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveY" sid="775386843793840" type="number" />
+                <instance-variable name="saveX" sid="661177254630198" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="528182783206365">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447429181780307" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home_siaga" sid="278876234250782">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="430491229364638" type="number" />
+                <instance-variable name="saveY" sid="991341200317895" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="994955514544502">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="975995616042009" speed="5">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_51.png">
+                        <collision-poly>
+                            <point x="0.0752688" y="0.0729167" />
+                            <point x="0.494624" y="0.0104167" />
+                            <point x="0.903226" y="0.09375" />
+                            <point x="0.967742" y="0.5" />
+                            <point x="0.892473" y="0.895833" />
+                            <point x="0.494624" y="0.947917" />
+                            <point x="0.0967742" y="0.90625" />
+                            <point x="0.0107527" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_sibsiaga" sid="156922194743289">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="978397952983005" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501742" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\widow\Window - Copy_15.png">
+                        <collision-poly>
+                            <point x="0.0255102" y="0.0174216" />
+                            <point x="0.5" y="0.00348432" />
+                            <point x="0.97449" y="0.0174216" />
+                            <point x="1" y="0.498258" />
+                            <point x="0.97449" y="0.982578" />
+                            <point x="0.5" y="0.996516" />
+                            <point x="0.0255102" y="0.982578" />
+                            <point x="0.00510204" y="0.498258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S_yelyel" sid="616552206363589">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="346241886553143" type="number" />
+                <instance-variable name="saveY" sid="163821328546810" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="510644272155730">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="561358638419649" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220326_110823.png">
+                        <collision-poly>
+                            <point x="0.334158" y="0.0118397" />
+                            <point x="0.665842" y="0.0118397" />
+                            <point x="0.989171" y="0.5" />
+                            <point x="0.651299" y="0.945355" />
+                            <point x="0.3487" y="0.945355" />
+                            <point x="0.00371287" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="S_permainan" sid="870279046958873">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="185580022877874" type="number" />
+                <instance-variable name="saveY" sid="766467224813745" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="345557475093582">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="874706471997214" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220326_110846.png">
+                        <collision-poly>
+                            <point x="0.334646" y="0.0138889" />
+                            <point x="0.665354" y="0.0138889" />
+                            <point x="0.988189" y="0.5" />
+                            <point x="0.651181" y="0.944444" />
+                            <point x="0.348819" y="0.944444" />
+                            <point x="0.00472441" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_utama" sid="820927566968219">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="427772065887308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Ruime keuze fineer houtsoorten - Decospan.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_text" sid="522070492915502">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="447608910110226" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501742" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\widow\Window - Copy_15.png">
+                        <collision-poly>
+                            <point x="0.0255102" y="0.0174216" />
+                            <point x="0.5" y="0.00348432" />
+                            <point x="0.97449" y="0.0174216" />
+                            <point x="1" y="0.498258" />
+                            <point x="0.97449" y="0.982578" />
+                            <point x="0.5" y="0.996516" />
+                            <point x="0.0255102" y="0.982578" />
+                            <point x="0.00510204" y="0.498258" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg_sub" sid="206730329220516">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="573340321938092" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\bda29227-f02b-4ad8-bffd-d2e8384c6ffc.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_pancasila" sid="631609923494740">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="653526914643869" type="number" />
+                <instance-variable name="saveY" sid="804121674184205" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="521753582169846">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769716310895812" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="dkr" sid="150366029065145">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="304497043112553" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1646520498270.png">
+                        <collision-poly>
+                            <point x="0.148438" y="0.148438" />
+                            <point x="0.5" y="0" />
+                            <point x="0.851563" y="0.148438" />
+                            <point x="1" y="0.5" />
+                            <point x="0.851563" y="0.851563" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="tx_pancasila" sid="965268251041940">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504370033117696" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220402_175259.png">
+                        <collision-poly>
+                            <point x="0.324268" y="0.0534351" />
+                            <point x="0.698745" y="0.0114504" />
+                            <point x="0.995816" y="0.5" />
+                            <point x="0.5" y="0.954198" />
+                            <point x="0.0083682" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jd_pancasila" sid="176970376127035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="539659524397148" speed="5">
+                    <frame duration="1" hotspotX="0.492632" hotspotY="0.457143" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220403_140429.png">
+                        <collision-poly>
+                            <point x="0.227368" y="0.0857143" />
+                            <point x="0.492632" y="0.5" />
+                            <point x="0.751579" y="0.128572" />
+                            <point x="0.968421" y="0.457143" />
+                            <point x="0.751579" y="0.785714" />
+                            <point x="0.492632" y="0.971429" />
+                            <point x="0.206316" y="0.971429" />
+                            <point x="0.00210526" y="0.457143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kitri" sid="173768186528595">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754141678890484" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502024" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\CIKAL.CERMIN.png">
+                        <collision-poly>
+                            <point x="0.260714" y="0.295547" />
+                            <point x="0.739286" y="0.295547" />
+                            <point x="0.667857" y="0.497976" />
+                            <point x="0.928571" y="0.919028" />
+                            <point x="0.0714286" y="0.919028" />
+                            <point x="0.332143" y="0.497976" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="object1" sid="136265922235010">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="790322045909482" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1647350483717.png">
+                        <collision-poly>
+                            <point x="0.387097" y="0.20875" />
+                            <point x="0.5" y="0.20125" />
+                            <point x="0.612903" y="0.20875" />
+                            <point x="0.638249" y="0.5" />
+                            <point x="0.541475" y="0.7525" />
+                            <point x="0.5" y="0.7525" />
+                            <point x="0.267281" y="0.85625" />
+                            <point x="0.269585" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bd_trisatya" sid="512911735102027">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722345240389308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\background\Ruime keuze fineer houtsoorten - Decospan.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_trisatya" sid="984278227671975">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="771819860903525" type="number" />
+                <instance-variable name="saveY" sid="487356146074241" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="153404415145247">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="570645160617615" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jdl_trisatya" sid="698346891698587">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635224833935716" speed="5">
+                    <frame duration="1" hotspotX="0.498996" hotspotY="0.455696" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220403_142321.png">
+                        <collision-poly>
+                            <point x="0.26506" y="0.246835" />
+                            <point x="0.498996" y="0.753165" />
+                            <point x="0.768072" y="0.0253165" />
+                            <point x="0.966867" y="0.455696" />
+                            <point x="0.691767" y="0.405063" />
+                            <point x="0.498996" y="0.981013" />
+                            <point x="0.214859" y="0.981013" />
+                            <point x="0.0381526" y="0.455696" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_trisatya" sid="596366336036754">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307892788386519" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220403_143213.png">
+                        <collision-poly>
+                            <point x="0.0226563" y="0.0226563" />
+                            <point x="0.5" y="0.146094" />
+                            <point x="0.966406" y="0.0335938" />
+                            <point x="0.739062" y="0.739062" />
+                            <point x="0.5" y="0.860937" />
+                            <point x="0.267188" y="0.732813" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="object3" sid="556556035398694">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199394240679336" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1647350456162.png">
+                        <collision-poly>
+                            <point x="0.362245" y="0.177057" />
+                            <point x="0.5" y="0.17207" />
+                            <point x="0.607143" y="0.19202" />
+                            <point x="0.780612" y="0.5" />
+                            <point x="0.604592" y="0.806733" />
+                            <point x="0.5" y="0.866584" />
+                            <point x="0.290816" y="0.857855" />
+                            <point x="0.252551" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_dasadharma" sid="595693416834025">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="512804312103349" type="number" />
+                <instance-variable name="saveY" sid="676066248744281" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="736280813475098">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864997653174831" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jdl_dasadarma" sid="116620363164881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="912735761180269" speed="5">
+                    <frame duration="1" hotspotX="0.494792" hotspotY="0.45098" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220403_152808.png">
+                        <collision-poly>
+                            <point x="0.1375" y="0.0294118" />
+                            <point x="0.819792" y="0.333333" />
+                            <point x="0.977083" y="0.45098" />
+                            <point x="0.851042" y="0.862745" />
+                            <point x="0.148958" y="0.764706" />
+                            <point x="0.00208333" y="0.45098" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="text_dasadarma" sid="728327432056158">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="673849036349363" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220403_152626.png">
+                        <collision-poly>
+                            <point x="0.112" y="0.0933333" />
+                            <point x="0.5" y="0.0733333" />
+                            <point x="0.91" y="0.075" />
+                            <point x="0.846" y="0.871667" />
+                            <point x="0.5" y="0.78" />
+                            <point x="0.154" y="0.871667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="object4" sid="708267336387017">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945134114893830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501014" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\1647350415291.png">
+                        <collision-poly>
+                            <point x="0.22" y="0.133874" />
+                            <point x="0.5" y="0.0649087" />
+                            <point x="0.803333" y="0.119675" />
+                            <point x="0.67" y="0.498986" />
+                            <point x="0.913333" y="0.947262" />
+                            <point x="0.5" y="0.947262" />
+                            <point x="0.41" y="0.750507" />
+                            <point x="0.393333" y="0.498986" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_uuGp" sid="732071997950540">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="725458261455894" type="number" />
+                <instance-variable name="saveY" sid="876751551666472" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="562489483500874">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="622024511949124" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button 2\Button_02.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ui_uugp" sid="488071042239737">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="383619710306719">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="637529763548578">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="870163946988138">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991551732715593" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="up_uugp" sid="436084040259139">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="461649634561481" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_06.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="down_uugp" sid="713948305617460">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="321970382830250" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_26.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="576666611391119">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167669010063433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="profil" sid="836605319633508">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="LiteTween" sid="195544314954955">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="294730939768935" speed="5">
+                    <frame duration="1" hotspotX="0.500475" hotspotY="0.500984" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\object\20220318_073301.png">
+                        <collision-poly>
+                            <point x="0.0746599" y="0.0968123" />
+                            <point x="0.500475" y="0.00314837" />
+                            <point x="0.921227" y="0.103109" />
+                            <point x="0.987978" y="0.500984" />
+                            <point x="0.977222" y="0.968516" />
+                            <point x="0.018665" y="0.974813" />
+                            <point x="0.00253085" y="0.500984" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_profil" sid="329280169818921">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="974243967273078" type="number" />
+                <instance-variable name="saveY" sid="381792287683354" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Pin" sid="677793210591553">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="LiteTween" sid="125663816623633">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="889494678366556" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_22.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.913043" y="0.0833333" />
+                            <point x="0.978261" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0978261" y="0.90625" />
+                            <point x="0.0108696" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="judul_uugp" sid="549011385465024">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="judul_adart" sid="445024495538962">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="UI_adart" sid="218324188267524">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="721217799300372">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="940194728538043">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="527238370702551">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="887222632579361" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_adart" sid="220523795776510">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="320120296732126" type="number" />
+                <instance-variable name="saveY" sid="412391273365923" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="833757796128462">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="450278001597284" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_02_2.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="up_adart" sid="595272861598631">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="494014687969830" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_06.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="down_adart" sid="423178907624498">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="628183460173101" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_26.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="UI_sismintir" sid="886203726901848">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="455709146429897">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="840432807402050">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="226047473662675">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="471242963907253" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="back_sismintir" sid="184756503432821">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="saveX" sid="120050823484819" type="number" />
+                <instance-variable name="saveY" sid="353147762927428" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="LiteTween" sid="852752476602602">
+                    <behavior id="lunarray_LiteTween" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="406938290389355" speed="5">
+                    <frame duration="1" hotspotX="0.502732" hotspotY="0.502618" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_02_2.png">
+                        <collision-poly>
+                            <point x="0.0710383" y="0.0680628" />
+                            <point x="0.497268" y="0.0052356" />
+                            <point x="0.912568" y="0.0837696" />
+                            <point x="0.972678" y="0.497382" />
+                            <point x="0.896175" y="0.900524" />
+                            <point x="0.497268" y="0.947644" />
+                            <point x="0.0928962" y="0.910995" />
+                            <point x="0.00546448" y="0.497382" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="up_sismintir" sid="696286739674025">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="588336125690326" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_06.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="down_sismintir" sid="251109338378443">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288945988925070" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\M Supyan\Documents\data supyan\project game\bahan\gui\button\Button_26.png">
+                        <collision-poly>
+                            <point x="0.076087" y="0.0729167" />
+                            <point x="0.5" y="0.0104167" />
+                            <point x="0.902174" y="0.09375" />
+                            <point x="0.967391" y="0.5" />
+                            <point x="0.891304" y="0.895833" />
+                            <point x="0.5" y="0.947917" />
+                            <point x="0.0869565" y="0.916667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="UI_ppdk" sid="778103255686323">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964942973965960" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>menu awal.xml</layout>
+        <layout>sub menu.xml</layout>
+        <layout>1. pengetahuan umun.xml</layout>
+        <layout>pancasila 1.xml</layout>
+        <layout>tri satya 1.xml</layout>
+        <layout>dasa darma 1.xml</layout>
+        <layout>2. penegak.xml</layout>
+        <layout>uu GP.xml</layout>
+        <layout>ad&amp;art.xml</layout>
+        <layout>sismintir.xml</layout>
+        <layout>ppdk.xml</layout>
+        <layout>3. penggalang.xml</layout>
+        <layout>4. siaga.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event menu awal.xml</event-sheet>
+        <event-sheet>Event pengetahuan umum.xml</event-sheet>
+        <event-sheet>Event sub menu.xml</event-sheet>
+        <event-sheet>Event penegak.xml</event-sheet>
+        <event-sheet>Event penggalang.xml</event-sheet>
+        <event-sheet>Event siaga.xml</event-sheet>
+        <event-sheet>Event pancasila.xml</event-sheet>
+        <event-sheet>Event tri satya.xml</event-sheet>
+        <event-sheet>Event dasa darma.xml</event-sheet>
+        <event-sheet>Event uuGP.xml</event-sheet>
+        <event-sheet>Event ad&amp;art.xml</event-sheet>
+        <event-sheet>Event sismintir.xml</event-sheet>
+        <event-sheet>Event ppdk.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="15">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="16">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="17" />
+        <global-instance type="Function" uid="105" />
+    </global-instances>
+    <sounds-folder>
+        <file name="click.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="MattOglseby - 1.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

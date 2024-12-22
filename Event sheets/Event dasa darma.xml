@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event dasa darma</name>
+    <events>
+        <event-block sid="124556712023808">
+            <conditions>
+                <condition id="3" name="On touched object" sid="641132198225210" type="Touch">
+                    <param id="0" name="Object">back_dasadharma</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="515213461411258" type="back_dasadharma">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="662175097434032" type="back_dasadharma">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="695527832371662" type="back_dasadharma">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="966092398493005" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="763278544513154" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="634161489314393" type="back_dasadharma">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="478751474869748" type="back_dasadharma">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-16" name="Wait" sid="897138284520740" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="254644390928081" type="System">
+                    <param id="0" name="Layout">1. pengetahuan umun</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="936930352904262">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="881444130795189" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="875290771114794">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="535357339858143" type="System">
+                            <param id="0" name="Object">back_dasadharma</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="891265192686762" type="back_dasadharma">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="349827176086969" type="back_dasadharma">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

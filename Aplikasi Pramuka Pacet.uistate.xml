@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="1">dasa darma 1</layout>
+        <layout order="3">3. penggalang</layout>
+        <layout order="4">1. pengetahuan umun</layout>
+        <layout order="6">sub menu</layout>
+        <layout order="9">4. siaga</layout>
+        <layout order="11">tri satya 1</layout>
+        <layout order="12">2. penegak</layout>
+        <layout order="16">menu awal</layout>
+        <layout order="17">uu GP</layout>
+        <layout order="18">pancasila 1</layout>
+        <layout order="20">ad&amp;art</layout>
+        <layout order="22">sismintir</layout>
+        <layout active="1" order="24">ppdk</layout>
+        <event-sheet order="0">Event dasa darma</event-sheet>
+        <event-sheet order="2">Event pengetahuan umum</event-sheet>
+        <event-sheet order="5">Event menu awal</event-sheet>
+        <event-sheet order="7">Event uuGP</event-sheet>
+        <event-sheet order="8">Event penggalang</event-sheet>
+        <event-sheet order="10">Event siaga</event-sheet>
+        <event-sheet order="13">Event pancasila</event-sheet>
+        <event-sheet order="14">Event tri satya</event-sheet>
+        <event-sheet order="15">Event sub menu</event-sheet>
+        <event-sheet order="19">Event penegak</event-sheet>
+        <event-sheet order="21">Event ad&amp;art</event-sheet>
+        <event-sheet order="23">Event sismintir</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/fungsi/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/object2/" />
+        <folder expanded="1" path="animation-folder/Play/" />
+        <folder expanded="1" path="animation-folder/Button_info/" />
+        <folder expanded="1" path="animation-folder/Button_musik/" />
+        <folder expanded="1" path="animation-folder/tuguBubur/" />
+        <folder expanded="1" path="animation-folder/keluar/" />
+        <folder expanded="1" path="animation-folder/bgMateri/" />
+        <folder expanded="1" path="animation-folder/bgIsiMateri/" />
+        <folder expanded="1" path="animation-folder/home_pu/" />
+        <folder expanded="1" path="animation-folder/dkrMateri/" />
+        <folder expanded="1" path="animation-folder/GambarKartunBukitLangitBiruLangitPutihPosterRingkasLatihanLatarBelakangUntukMuatTurunPercumaBackgroundDesignColorfulBordersDesignCartoonBa/" />
+        <folder expanded="1" path="animation-folder/logo_awal/" />
+        <folder expanded="1" path="animation-folder/back_submenu/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/pu/" />
+        <folder expanded="1" path="animation-folder/penegak/" />
+        <folder expanded="1" path="animation-folder/penggalang/" />
+        <folder expanded="1" path="animation-folder/siaga/" />
+        <folder expanded="1" path="animation-folder/back_pu/" />
+        <folder expanded="1" path="animation-folder/pancasila/" />
+        <folder expanded="1" path="animation-folder/tri_satya/" />
+        <folder expanded="1" path="animation-folder/dasa_dharma/" />
+        <folder expanded="1" path="animation-folder/bg_penegak/" />
+        <folder expanded="1" path="animation-folder/bg_subtegak/" />
+        <folder expanded="1" path="animation-folder/back_penegak/" />
+        <folder expanded="1" path="animation-folder/home_penegak/" />
+        <folder expanded="1" path="animation-folder/uugp/" />
+        <folder expanded="1" path="animation-folder/ppdk/" />
+        <folder expanded="1" path="animation-folder/polmekbin/" />
+        <folder expanded="1" path="animation-folder/sismintir/" />
+        <folder expanded="1" path="animation-folder/saka/" />
+        <folder expanded="1" path="animation-folder/adart/" />
+        <folder expanded="1" path="animation-folder/bg_penggalang/" />
+        <folder expanded="1" path="animation-folder/back_penggalang/" />
+        <folder expanded="1" path="animation-folder/home_penggalang/" />
+        <folder expanded="1" path="animation-folder/bg_subgalang/" />
+        <folder expanded="1" path="animation-folder/P_bio_BF/" />
+        <folder expanded="1" path="animation-folder/P_sejarahpramuka/" />
+        <folder expanded="1" path="animation-folder/P_smaphore/" />
+        <folder expanded="1" path="animation-folder/P_simpul/" />
+        <folder expanded="1" path="animation-folder/P_morse/" />
+        <folder expanded="1" path="animation-folder/P_survival/" />
+        <folder expanded="1" path="animation-folder/P_sandi/" />
+        <folder expanded="1" path="animation-folder/P_mataangin/" />
+        <folder expanded="1" path="animation-folder/P_berkemah/" />
+        <folder expanded="1" path="animation-folder/TKU/" />
+        <folder expanded="1" path="animation-folder/TKK/" />
+        <folder expanded="1" path="animation-folder/P_sejarah/" />
+        <folder expanded="1" path="animation-folder/bg_siaga/" />
+        <folder expanded="1" path="animation-folder/back_siaga/" />
+        <folder expanded="1" path="animation-folder/home_siaga/" />
+        <folder expanded="1" path="animation-folder/bg_sibsiaga/" />
+        <folder expanded="1" path="animation-folder/S_yelyel/" />
+        <folder expanded="1" path="animation-folder/S_permainan/" />
+        <folder expanded="1" path="animation-folder/bg_utama/" />
+        <folder expanded="1" path="animation-folder/bg_text/" />
+        <folder expanded="1" path="animation-folder/bg_sub/" />
+        <folder expanded="1" path="animation-folder/back_pancasila/" />
+        <folder expanded="1" path="animation-folder/dkr/" />
+        <folder expanded="1" path="animation-folder/tx_pancasila/" />
+        <folder expanded="1" path="animation-folder/jd_pancasila/" />
+        <folder expanded="1" path="animation-folder/kitri/" />
+        <folder expanded="1" path="animation-folder/object1/" />
+        <folder expanded="1" path="animation-folder/bd_trisatya/" />
+        <folder expanded="1" path="animation-folder/back_trisatya/" />
+        <folder expanded="1" path="animation-folder/jdl_trisatya/" />
+        <folder expanded="1" path="animation-folder/text_trisatya/" />
+        <folder expanded="1" path="animation-folder/object3/" />
+        <folder expanded="1" path="animation-folder/back_dasadharma/" />
+        <folder expanded="1" path="animation-folder/jdl_dasadarma/" />
+        <folder expanded="1" path="animation-folder/text_dasadarma/" />
+        <folder expanded="1" path="animation-folder/object4/" />
+        <folder expanded="1" path="animation-folder/back_uuGp/" />
+        <folder expanded="1" path="animation-folder/ui_uugp/" />
+        <folder expanded="1" path="animation-folder/up_uugp/" />
+        <folder expanded="1" path="animation-folder/down_uugp/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/profil/" />
+        <folder expanded="1" path="animation-folder/back_profil/" />
+        <folder expanded="1" path="animation-folder/UI_adart/" />
+        <folder expanded="1" path="animation-folder/back_adart/" />
+        <folder expanded="1" path="animation-folder/up_adart/" />
+        <folder expanded="1" path="animation-folder/down_adart/" />
+        <folder expanded="1" path="animation-folder/UI_sismintir/" />
+        <folder expanded="1" path="animation-folder/back_sismintir/" />
+        <folder expanded="1" path="animation-folder/up_sismintir/" />
+        <folder expanded="1" path="animation-folder/down_sismintir/" />
+        <folder expanded="1" path="animation-folder/UI_ppdk/" />
+    </folders-expanded>
+</c2uistate>

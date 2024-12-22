@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event pancasila</name>
+    <events>
+        <event-block sid="113962175006055">
+            <conditions>
+                <condition id="3" name="On touched object" sid="647203955789059" type="Touch">
+                    <param id="0" name="Object">back_pancasila</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="595421353676386" type="back_pancasila">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="936334263135812" type="back_pancasila">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="563438570732508" type="back_pancasila">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="126885858683542" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="546700081030546" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="868373732043607" type="back_pancasila">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="649969121409149" type="back_pancasila">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-16" name="Wait" sid="595917935794566" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="729356899847402" type="System">
+                    <param id="0" name="Layout">1. pengetahuan umun</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="254296120339546">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="412639732891563" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="769596327838298">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="867535387183328" type="System">
+                            <param id="0" name="Object">back_pancasila</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="591904750134654" type="back_pancasila">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="314805007420138" type="back_pancasila">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

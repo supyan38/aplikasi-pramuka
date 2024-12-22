@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event siaga</name>
+    <events>
+        <variable constant="0" name="buttonMusik6" sid="862285145080063" static="0" type="number">0</variable>
+        <event-group description="" sid="156156651940884" title="fungsi musik5">
+            <sub-events>
+                <event-block sid="417541556292801">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="970712394442043" type="System" />
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="570337586816893">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Is tag playing" sid="773351888225008" type="Audio">
+                                    <param id="0" name="Tag">&quot;musik&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="33" name="Stop all" sid="971568610734540" type="Audio" />
+                                <action id="0" name="Play" sid="945257676770703" type="Audio">
+                                    <param id="0" name="Audio file">MattOglseby - 1</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">-5</param>
+                                    <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="218777323068241">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="582966057660419" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="33" name="Stop all" sid="202352169183787" type="Audio" />
+                                <action id="0" name="Play" sid="711015047265817" type="Audio">
+                                    <param id="0" name="Audio file">MattOglseby - 1</param>
+                                    <param id="2" name="Loop">1</param>
+                                    <param id="3" name="Volume">-5</param>
+                                    <param id="1" name="Tag (optional)">&quot;musik&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="769272257377861">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="510372094288108" type="Touch">
+                            <param id="0" name="Object">Button_musik</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Move to layer" sid="219999014483240" type="Button_musik">
+                            <param id="0" name="Layer">0</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="133557366615814">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="651255107247895" type="System">
+                                    <param id="0" name="Variable">buttonMusik</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="308677201443011" type="System">
+                                    <param id="0" name="Variable">buttonMusik</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="2" name="Set muted" sid="224042974268653" type="Audio">
+                                    <param id="0" name="Tag">&quot;musik&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="245166337089694" type="Button_musik">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="318005441367212">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="770819820077264" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="547684056247448" type="System">
+                                    <param id="0" name="Variable">buttonMusik</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="2" name="Set muted" sid="311361757039135" type="Audio">
+                                    <param id="0" name="Tag">&quot;musik&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="5" name="Set frame" sid="382777559329018" type="Button_musik">
+                                    <param id="0" name="Frame number">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="708835367862666">
+            <conditions>
+                <condition id="3" name="On touched object" sid="166027726389805" type="Touch">
+                    <param id="0" name="Object">Button_musik</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="878569691079984" type="Button_musik">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="710621730906198" type="Button_musik">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="687888843085538" type="Button_musik">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="879750402542340" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="429476460798063" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="407023561038490" type="Button_musik">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="881583245226007" type="Button_musik">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="513531935027445">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="882311395282680" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="463959278730929">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="445931833032272" type="System">
+                            <param id="0" name="Object">Button_musik</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="798066106173246" type="Button_musik">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="820326528879961" type="Button_musik">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="990067664973342">
+            <conditions>
+                <condition id="3" name="On touched object" sid="428790793389826" type="Touch">
+                    <param id="0" name="Object">back_siaga</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="458865282513606" type="back_siaga">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="819032971714415" type="back_siaga">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="848600314567567" type="back_siaga">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="541678107763387" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="111095364678904" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="993656355021151" type="back_siaga">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="982151433358882" type="back_siaga">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-16" name="Wait" sid="206035090606206" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="135923624395465" type="System">
+                    <param id="0" name="Layout">sub menu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="815274795586294">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="546248572479444" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="490420793121453">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="912739162523869" type="System">
+                            <param id="0" name="Object">back_siaga</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="560247931925382" type="back_siaga">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="303829113540017" type="back_siaga">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="588681154028285">
+            <conditions>
+                <condition id="3" name="On touched object" sid="111219931152747" type="Touch">
+                    <param id="0" name="Object">home_siaga</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="286128515605573" type="home_siaga">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="481562389017300" type="home_siaga">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="468100407725378" type="home_siaga">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="867155224222205" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="775320050953048" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="771807858202892" type="home_siaga">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="320957248981693" type="home_siaga">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+                <action id="-16" name="Wait" sid="258897221016905" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="142196638660975" type="System">
+                    <param id="0" name="Layout">menu awal</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="190093380396252">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="724794639493370" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="269857112187805">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="763278052393800" type="System">
+                            <param id="0" name="Object">home_siaga</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="292014732391468" type="home_siaga">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="736936883564520" type="home_siaga">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="613416603331732">
+            <conditions>
+                <condition id="3" name="On touched object" sid="837287937033684" type="Touch">
+                    <param id="0" name="Object">S_permainan</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="877254537810906" type="S_permainan">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="780822107901355" type="S_permainan">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="305665347015210" type="S_permainan">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="316161767774026" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="606566785936303" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="580599614536982" type="S_permainan">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="612643796750475" type="S_permainan">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="329040594506312">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="226891964580794" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="753509810964121">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="588257203245026" type="System">
+                            <param id="0" name="Object">S_permainan</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="330647040756999" type="S_permainan">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="449955163121157" type="S_permainan">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="851518542407247">
+            <conditions>
+                <condition id="3" name="On touched object" sid="992794398438736" type="Touch">
+                    <param id="0" name="Object">S_yelyel</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="LiteTween" id="10" name="Start" sid="609506401187340" type="S_yelyel">
+                    <param id="0" name="Start Mode">0</param>
+                    <param id="1" name="Force use current">0</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="882254831050652" type="S_yelyel">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX+20</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="690127059689098" type="S_yelyel">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY+20</param>
+                </action>
+                <action id="0" name="Play" sid="492091040797350" type="Audio">
+                    <param id="0" name="Audio file">click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="804559671068729" type="System">
+                    <param id="0" name="Seconds">0.2</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="753755815737025" type="S_yelyel">
+                    <param id="0" name="Target is">0</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveX</param>
+                </action>
+                <action behavior="LiteTween" id="3" name="Set target" sid="320019467385738" type="S_yelyel">
+                    <param id="0" name="Target is">1</param>
+                    <param id="1" name="Relativity">0</param>
+                    <param id="2" name="Value">Self.SaveY</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="628729496054471">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="783963080486953" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="623164128810022">
+                    <conditions>
+                        <condition id="-11" name="For Each" sid="495618217302561" type="System">
+                            <param id="0" name="Object">S_yelyel</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="350108517312712" type="S_yelyel">
+                            <param id="0" name="Instance variable">saveX</param>
+                            <param id="1" name="Value">Self.Width</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="575445653418288" type="S_yelyel">
+                            <param id="0" name="Instance variable">saveY</param>
+                            <param id="1" name="Value">Self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
